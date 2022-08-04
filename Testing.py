@@ -1,3 +1,6 @@
+# By Joji - 8/4/22
+# Uploaded at 3:58 PM
+# If you have any questions comment and if I remember I shall reply
 import dhooks
 import colorama
 from dhooks import Webhook
@@ -6,13 +9,12 @@ from colorama import Fore, Back, Style
 colorama.init()
 
 Auth1 = ['Admin', 'Password']
-Auth2 = ['Joji', 'Joji123']
 
 
 val = input('Username: ')
 val1 = input('Password: ')
 
-hook = Webhook("https://discord.com/api/webhooks/1004815385616466002/JBNpnd4U7DP5_x11vx51JbSWDbNhhCnS13J8jtkbC8Fepzxj6wL1wAqCOcv4lK91cjYz")
+hook = Webhook("Your_Webhook_Here")
 LoggedIn = False
 
 if val == Auth1[0]:
